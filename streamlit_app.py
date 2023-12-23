@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
-
+from streamlit_lottie import streamlit_lottie
+import streamlit_lottie as st_lottie
 
 st.set_page_config(page_title="My Webpage", page_icon=":desktop_computer:U+1F5A5", layout="wide")
 
@@ -42,5 +42,3 @@ Contact us today to embark on a journey to unparalleled events in Ojima, Tokyo!
         )
     with right_column:
         st_lottie(lottie_event, height = 600, key ="coding")
-
-
